@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "country_code":"ku",
+        "name":"KUW",
+        "currency":"KWD",
+        "icon":"./assets/icons/kuw.png",
+        "decimals": 3
+        
+    },
+    {
+        "id":2,
+        "country_code":"ar-AE",
+        "name":"UAE",
+        "currency":"AED",
+        "icon":"./assets/icons/uae.png",
+        "decimals": 2
+    },
+    {
+        "id":3,
+        "country_code":"ar-BH",
+        "name":"BAH",
+        "currency":"BHD",
+        "icon":"./assets/icons/bah.png",
+        "decimals": 2
+    },
+    {
+        "id":4,
+        "country_code":"ar-SA",
+        "name":"KSA",
+        "currency":"SAR",
+        "icon":"./assets/icons/ksa.png",
+        "decimals": 2
+    },
+    {
+        "id":5,
+        "country_code":"ar-QA",
+        "name":"QAT",
+        "currency":"QAR",
+        "icon":"./assets/icons/qat.png",
+        "decimals": 2
+    }
+]
