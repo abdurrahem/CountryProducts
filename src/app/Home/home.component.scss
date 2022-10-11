@@ -21,10 +21,10 @@ $color:purple;
 .main-content {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  // justify-content: flex-end;
   align-items: center;
-  left: 50%;
-  top: 50%;
+  left: 70%;
+  top: 40%;
   transform: translate(-90%, -50%);
   position: absolute;
 }
