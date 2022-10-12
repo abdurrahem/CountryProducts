@@ -1,0 +1,15 @@
+{
+  "GET_STARTED": "Get Started",
+  "PRODUCTS": {
+    "LISTـITEMS": "List Items",
+    "SELECT_TEXT": "Select your product from the list please.."
+  },
+  "HEADER": {
+    "LOGIN": "Login",
+    "LOGOUT": "Logout "
+  },
+  "LOGIN_PAGE": {
+    "COUNTRY_PRODUCT_TEXT": "Country Products",
+    "LOGIN_BUTTON": "Login"
+  }
+}

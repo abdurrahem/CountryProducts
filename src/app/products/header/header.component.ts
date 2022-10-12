@@ -33,8 +33,6 @@ export class HeaderComponent implements OnInit {
   //navigate
   selectCountry(country: ICountry) {
     if (this.authService.isLoggedin) {
-      // this.productsService.selectedCountry = country;
-      console.log(country);
       
       this.router.navigate([CONFIG.products.route],
         {

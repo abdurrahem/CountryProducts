@@ -31,7 +31,7 @@
                     <div class="text-center">
                       <img src="./assets/icons/jc.png"
                         style="width: 185px;" alt="logo">
-                      <h4 class="mt-1 mb-5 pb-1">Country Product</h4>
+                      <h4 class="mt-1 mb-5 pb-1">{{'LOGIN_PAGE.COUNTRY_PRODUCT_TEXT'| translate}}</h4>
                     </div>
     
                     <div class="container">
@@ -46,12 +46,12 @@
                               <label for="pwd">Password:</label>
                               <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password" formControlName="password">
                             </div>
-                            <button type="submit" class="btn btn-primary" [disabled]="authform.invalid">login</button> 
+                            <button type="submit" class="btn btn-primary" [disabled]="authform.invalid">{{'LOGIN_PAGE.LOGIN_BUTTON' | translate}}</button> 
                               &nbsp;&nbsp;<small class="text-danger">{{error}}</small> 
                           </form>
                         </div>
                         <div *ngIf="isLoggedIn">
-                          <h1 style="text-align: center;" class="text-success">Select your product from the list please..</h1><br>
+                          <h1 style="text-align: center;" class="text-success">{{'PRODUCTS.SELECT_TEXT'| translate}}</h1><br>
                         </div>
                       </div>
     

@@ -14,10 +14,10 @@
   </div>
   
   <div *ngIf="isLoggedIn">
-    <a class="btn btn-light log" (click)="logout()">Logout</a>
+    <a class="btn btn-light log" (click)="logout()">{{'HEADER.LOGOUT' | translate}}</a>
   </div>
   <div *ngIf="!isLoggedIn">
-    <a class="btn btn-light log" (click)="login()">Login</a>
+    <a class="btn btn-light log" (click)="login()">{{'HEADER.LOGIN' | translate}}</a>
   </div>
   <!-- <select  (change)="selectCountry(+country.value)" #country>
     <option value="select" disabled selected>select country</option>

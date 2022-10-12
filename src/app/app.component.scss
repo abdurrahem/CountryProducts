@@ -17,3 +17,25 @@ $border:1px solid lightgray;
     align-self: flex-end;
     padding:20px;
 }
+.langs{
+  display: inline;
+  right: 5px;
+}
+
+.langs a{
+  cursor: pointer;
+  color: blue;
+}
+
+
+
+
+/* mouse over link */
+.langs a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.langs a:active {
+  color: purple;
+}

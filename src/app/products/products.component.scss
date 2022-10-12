@@ -4,7 +4,7 @@ $margins:10px;
 
 .container{
 border: $border;
-margin-top: 20px;
+margin-top: 5px;
 }
 
 .products_list{
@@ -27,8 +27,11 @@ margin-top: 20px;
 @media (max-width:800px){//tablet style
     .list{
         flex: 50%;
-        justify-content: space-around;
+        justify-content:center;
     }
+    // .card{
+    //     margin:auto;
+    // }
 }
 @media (max-width:500px){///small devices style
     .list{

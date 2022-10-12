@@ -1,0 +1,15 @@
+{
+  "GET_STARTED": "إبدأ",
+  "PRODUCTS": {
+    "LISTـITEMS": "قائمة العناصر",
+    "SELECT_TEXT": "الرجاء الاختيار من القائمة"
+  },
+  "HEADER": {
+    "LOGIN": "تسجيل الدخول",
+    "LOGOUT": "تسجيل الخروج"
+  },
+  "LOGIN_PAGE": {
+    "COUNTRY_PRODUCT_TEXT": "{0} حسب الدولة",
+    "LOGIN_BUTTON": "تسجيل الدخول"
+  }
+}

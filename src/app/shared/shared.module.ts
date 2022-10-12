@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ProductsService } from './services/products.service';
 import { HttpClientModule } from '@angular/common/http';
 import { CurrencyDecimalPointsPipe } from './pipes/currency-decimal-points.pipe';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -17,6 +18,9 @@ import { CurrencyDecimalPointsPipe } from './pipes/currency-decimal-points.pipe'
     HttpClientModule
   ],
   providers:[ProductsService],
-  exports:[CurrencyDecimalPointsPipe]
+  exports:[
+    CurrencyDecimalPointsPipe,
+    TranslateModule
+  ]
 })
 export class SharedModule { }

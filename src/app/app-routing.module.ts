@@ -9,17 +9,17 @@ import { ProductsGuard } from './shared/guards/products.guard';
 
 
 const routes: Routes = [
-  {path:'',pathMatch:'full',redirectTo:CONFIG.home.name},
-  {path:CONFIG.home.name,component:HomeComponent},
-  {path:CONFIG.login.name,component:AuthenicationComponent},
+  { path: '', pathMatch: 'full', redirectTo: CONFIG.home.name },
+  { path: CONFIG.home.name, component: HomeComponent },
+  { path: CONFIG.login.name, component: AuthenicationComponent },
   {
-    path:CONFIG.products.name,loadChildren:()=> import('./products/products.module').then(m => m.ProductsModule),
-    resolve:{
-      products:GetProductsResolver
-   },
-      canActivate:[ProductsGuard]
-},
- {path:"**",component:HomeComponent}
+    path: CONFIG.products.name, loadChildren: () => import('./products/products.module').then(m => m.ProductsModule),
+    resolve: {
+      products: GetProductsResolver
+    },
+    canActivate: [ProductsGuard]
+  },
+  { path: "**", component: HomeComponent }
 ];
 
 @NgModule({
