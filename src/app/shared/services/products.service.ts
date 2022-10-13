@@ -12,7 +12,7 @@ export class ProductsService {
   countries: ICountry[] = [];
   // selectedCountry!: ICountry;
   products: IProduct[] = [];
-
+  
   constructor(private http: HttpClient, private router: Router) { }
   // get countries data from countries API
   getCountries() {

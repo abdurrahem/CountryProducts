@@ -26,12 +26,12 @@
   
   <div class="dropdown">
     <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
-      &nbsp;&nbsp;<span id="name">{{name}}</span>&nbsp;&nbsp;&nbsp;<img *ngIf="icon" [src]="icon" id="icon">&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;<span id="name">{{name?name:'HEADER.SELECT_COUNTRY'|translate}}</span>&nbsp;&nbsp;&nbsp;<img *ngIf="icon" [src]="icon" id="icon">&nbsp;&nbsp;&nbsp;
     </button>
     <ul class="dropdown-menu">
       <li *ngFor="let country of countries " [value]="country.country_id" (click)="selectCountry(country)" >
         <a class="dropdown-item"><img [src]="country.icon">
-          <span style="float: right;">{{country.name}}</span>
+          <span style="float: right;">{{country.name[lang]}}</span>
         </a>
       </li>
     </ul>

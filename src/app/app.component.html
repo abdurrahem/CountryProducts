@@ -1,14 +1,14 @@
 <!-- <div class="container"> -->
-<router-outlet>
-   <div class="langs">
-       &nbsp;&nbsp;
+<router-outlet class="outlet" ><!--[dir]="direction"-->
+    <div class="langs">
+        &nbsp;&nbsp;
         <span>
-            <a  (click)="changeLanguage('en')">EN</a> 
+            <a (click)="changeLanguage('en')">EN</a>
         </span>&nbsp;&nbsp;
         <span>
-            <a  (click)="changeLanguage('ar')">العربية</a>
+            <a (click)="changeLanguage('ar')">العربية</a>
         </span>
-   </div>
+    </div>
 </router-outlet>
 <!-- <router-outlet class="list"></router-outlet> -->
 <!-- </div> -->

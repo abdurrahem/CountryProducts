@@ -2,7 +2,10 @@
     {
         "id":1,
         "country_code":"ku",
-        "name":"KUW",
+        "name":{
+            "en":"KUW",
+            "ar":"الكويت"
+        },
         "currency":"KWD",
         "icon":"./assets/icons/kuw.png",
         "decimals": 3
@@ -11,7 +14,10 @@
     {
         "id":2,
         "country_code":"ar-AE",
-        "name":"UAE",
+        "name":{
+            "en":"UAE",
+            "ar":"الامارات"
+        },
         "currency":"AED",
         "icon":"./assets/icons/uae.png",
         "decimals": 2
@@ -19,7 +25,10 @@
     {
         "id":3,
         "country_code":"ar-BH",
-        "name":"BAH",
+        "name":{
+            "en":"BAH",
+            "ar":"البحرين"
+        },
         "currency":"BHD",
         "icon":"./assets/icons/bah.png",
         "decimals": 2
@@ -27,7 +36,10 @@
     {
         "id":4,
         "country_code":"ar-SA",
-        "name":"KSA",
+        "name":{
+            "en":"KSA",
+            "ar":"السعودية"
+        },
         "currency":"SAR",
         "icon":"./assets/icons/ksa.png",
         "decimals": 2
@@ -35,7 +47,10 @@
     {
         "id":5,
         "country_code":"ar-QA",
-        "name":"QAT",
+        "name":{
+            "en":"QAT",
+            "ar":"قطر"
+        },
         "currency":"QAR",
         "icon":"./assets/icons/qat.png",
         "decimals": 2

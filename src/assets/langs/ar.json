@@ -6,10 +6,13 @@
   },
   "HEADER": {
     "LOGIN": "تسجيل الدخول",
-    "LOGOUT": "تسجيل الخروج"
+    "LOGOUT": "تسجيل الخروج",
+    "SELECT_COUNTRY":"اختيار الدولة"
   },
   "LOGIN_PAGE": {
-    "COUNTRY_PRODUCT_TEXT": "{0} حسب الدولة",
-    "LOGIN_BUTTON": "تسجيل الدخول"
+    "COUNTRY_PRODUCT_TEXT": " منتجات حسب الدولة",
+    "LOGIN_BUTTON": "تسجيل الدخول",
+    "EMAIL":"البريد الالكتروني",
+    "PASSWORD":"كلمة المرور"
   }
 }

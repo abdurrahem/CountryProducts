@@ -6,10 +6,13 @@
   },
   "HEADER": {
     "LOGIN": "Login",
-    "LOGOUT": "Logout "
+    "LOGOUT": "Logout ",
+    "SELECT_COUNTRY":"Select Country"
   },
   "LOGIN_PAGE": {
     "COUNTRY_PRODUCT_TEXT": "Country Products",
-    "LOGIN_BUTTON": "Login"
+    "LOGIN_BUTTON": "Login",
+    "EMAIL":"Email",
+    "PASSWORD":"Password"
   }
 }
