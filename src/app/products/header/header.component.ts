@@ -31,11 +31,10 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     ////get the countries data from API
-    this.lang=localStorage.getItem('lang');
+    this.lang=this.translateService.getBrowserLang();
     this.translateService.onLangChange.subscribe(event =>{
       this.lang=event.lang;
     });
-    // this.lang = localStorage.getItem('lang');
     this.productsService.getCountries().subscribe(countries => {
       this.countries = countries;
     });
@@ -64,6 +63,9 @@ export class HeaderComponent implements OnInit {
       // this.name = country?.name['en'] || '';
       // if(localStorage.getItem('lang'))
       this.name = (country as any).name[this.lang] || '';
+      this.translateService.onLangChange.subscribe(event =>{
+        this.name = (country as any).name[event.lang] || '';
+      });
       this.icon = country?.icon || "";
       this.loginError = false;
     }
